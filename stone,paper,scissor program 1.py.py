@@ -3,7 +3,6 @@ import random
 user_choice=int(input("enter number between 0 to 2 ,0=rock,1=paper,2=scissor:"))
 comp_choice=random.randint(0,2)
 print("computer choice")
-print(comp_choice)
 if user_choice<3:
  if user_choice==2 and comp_choice==0:
     print("you lose")
